@@ -27,5 +27,5 @@ function mousePressed() {
 }
 
 function mouseReleased() {
-    fill("blue")
+    shape
 }
