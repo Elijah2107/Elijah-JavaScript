@@ -18,6 +18,7 @@ function draw() {
     // noStroke();
     // fill(5,50);
     // circle(mouseX, mouseY, 50);
+    fill(shapeColor);
     circle(width/2, height/2, 100);
     fill(shapeColor);
 }
