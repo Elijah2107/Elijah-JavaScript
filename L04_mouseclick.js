@@ -23,7 +23,7 @@ function draw() {
 }
 
 function mousePressed() {
-    shapeColo
+    
 }
 
 function mouseReleased() {
