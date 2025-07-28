@@ -20,7 +20,6 @@ function draw() {
     // circle(mouseX, mouseY, 50);
     circle(width/2, height/2, 100);
     fill(shapeColor);
-    circle
 }
 
 function mousePressed() {
