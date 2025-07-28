@@ -16,7 +16,7 @@ function draw() {
     //     xpos = xpos + 50;
     //     ypos = ypos + 50;
     noStroke();
-    fill(1,10);
+    fill(,1);
     circle(mouseX, mouseY, 50);
 
 }
