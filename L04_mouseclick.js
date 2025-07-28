@@ -23,5 +23,9 @@ function draw() {
 }
 
 function mousePressed() {
-    fill("red")
+    fill("red");
+}
+
+function mouseReleased() {
+    
 }
