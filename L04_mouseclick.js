@@ -23,7 +23,7 @@ function draw() {
 }
 
 function mousePressed() {
-    fill("red");
+    shapeColo
 }
 
 function mouseReleased() {
