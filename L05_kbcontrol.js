@@ -6,7 +6,7 @@ function setup() {
     background(220);
 }
 function draw() {
-    background(220)
+    background(220);
     noStroke();
     xpos = 50;
     ypos = 50;
