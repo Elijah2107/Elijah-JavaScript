@@ -42,7 +42,10 @@ function keyPressed() {
     // else {
     //     fill("white");
     // }
-    if (key === 'c')
+    if (key === 'c') {
+        
+    }
+
 }
 function keyReleased() {
     // rectSize = 50;
