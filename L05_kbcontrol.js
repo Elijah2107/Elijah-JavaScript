@@ -19,8 +19,8 @@ function draw() {
 //     circleSize = circleSize + 0.5
 // }
 function keyPressed() {
-    rectSize = 100
+    rectSize = 100;
 }
 function keyReleased() {
-
+    rectSize = 50;
 }
