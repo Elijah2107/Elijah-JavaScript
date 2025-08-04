@@ -1,6 +1,6 @@
 // let circleSize = 5;
 // let shapeColor = "blue";
-let rectSize = 50;
+let rectSize = 1;
 function setup() {
     createCanvas(600,400);
     background(220);
@@ -23,8 +23,8 @@ function mouseDragged() {
 //     circleSize = circleSize + 0.5
 }
 function keyPressed() {
-    rectSize = 100;
+    rectSize = 200;
 }
 function keyReleased() {
-    rectSize = 50;
+    rectSize = 1;
 }
