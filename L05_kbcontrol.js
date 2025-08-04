@@ -5,5 +5,4 @@ function setup() {
 let shapeColor = "red"
 function draw() {
     fill(shapeColor)
-    circle(width/2)
 }
