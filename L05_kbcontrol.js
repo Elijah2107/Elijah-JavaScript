@@ -9,15 +9,15 @@ function draw() {
     noStroke();
 }
 
-// function mousePressed() {
+function mousePressed() {
 //     shapeColor = color(random(255), random(255) , random(255));
 //     fill(shapeColor);
 //     circleSize = 5;
-// }
-// function mouseDragged() {
+}
+function mouseDragged() {
 //     circle(mouseX, mouseY, circleSize);
 //     circleSize = circleSize + 0.5
-// }
+}
 function keyPressed() {
     rectSize = 100;
 }
