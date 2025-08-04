@@ -25,7 +25,7 @@ function mouseDragged() {
 function keyPressed() {
     rectSize = 100;
     if (key === 'r'); {
-        
+        fill("red")
     }
 }
 function keyReleased() {
