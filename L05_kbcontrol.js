@@ -50,7 +50,7 @@ function keyPressed() {
         rect(100,100,100,100);
     }
     else {
-        triangle(50,350,150,50,)
+        triangle(50,350,150,50,350,350);
     }
 
 }
