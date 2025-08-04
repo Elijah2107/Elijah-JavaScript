@@ -32,5 +32,5 @@ function draw() {
 // }
 
 function mouseDragged() {
-    circle(mouseX,mouseY,1,1)
+    circle(mouseX,mouseY,2,2)
 }
