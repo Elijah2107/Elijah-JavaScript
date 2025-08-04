@@ -49,7 +49,7 @@ function keyPressed() {
         rect(100,100,100,100);
     }
     else {
-        triang
+        triangle()
     }
 
 }
