@@ -45,6 +45,9 @@ function keyPressed() {
     if (key === 'c') {
         circle(100,100,100)
     }
+    else if (key === 's') {
+        
+    }
 
 }
 function keyReleased() {
