@@ -43,7 +43,7 @@ function keyPressed() {
     //     fill("white");
     // }
     if (key === 'c') {
-        circle()
+        circle(100,100,)
     }
 
 }
