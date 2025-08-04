@@ -9,7 +9,6 @@ function draw() {
     background(220);
     noStroke();
     fill("blue");
-    circle(100,100,100);
 
     // xpos = 50;
     // ypos = 50;
@@ -45,15 +44,7 @@ function keyPressed() {
     // else {
     //     fill("white");
     // }
-    if (key === 'c') {
-        circle(100,100,100);
-    }
-    else if (key === 's') {
-        rect(100,100,100,100);
-    }
-    else {
-        triangle(50,350,150,50,350,350);
-    }
+
 
 }
 function keyReleased() {
