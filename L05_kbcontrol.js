@@ -7,7 +7,8 @@ function setup() {
 }
 function draw() {
     noStroke();
-    
+    xpos = 50;
+    ypos = 50;
 }
 
 function mousePressed() {
