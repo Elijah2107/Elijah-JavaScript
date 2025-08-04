@@ -1,5 +1,5 @@
 let circleSize = 5
-
+let shape
 function setup() {
     createCanvas(600,400)
     background(220)
