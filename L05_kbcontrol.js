@@ -8,12 +8,12 @@ function draw() {
     noStroke();
 }
 
-function mousePressed() {
-    shapeColor = color(random(255), random(255) , random(255));
-    fill(shapeColor);
-    circleSize = 5;
-}
-function mouseDragged() {
-    circle(mouseX, mouseY, circleSize);
-    circleSize = circleSize + 0.5
-}
+// function mousePressed() {
+//     shapeColor = color(random(255), random(255) , random(255));
+//     fill(shapeColor);
+//     circleSize = 5;
+// }
+// function mouseDragged() {
+//     circle(mouseX, mouseY, circleSize);
+//     circleSize = circleSize + 0.5
+// }
