@@ -9,6 +9,7 @@ function draw() {
     noStroke();
     xpos = 50;
     ypos = 50;
+    rect(xpos, ypos)
 }
 
 function mousePressed() {
