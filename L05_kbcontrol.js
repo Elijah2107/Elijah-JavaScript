@@ -10,7 +10,7 @@ function draw() {
 function mousePressed() {
     shapeColor = color(random(255), random(255) , random(255))
 }
-size = 5
+let size = 5
 function mouseDragged() {
     
 }
