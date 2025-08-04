@@ -9,7 +9,15 @@ function draw() {
     background(220);
     noStroke();
     fill("blue");
-
+    if (key === 'c') {
+        circle(100,100,100);
+    }
+    else if (key === 's') {
+        rect(100,100,100,100);
+    }
+    else {
+        triangle(50,350,150,50,350,350);
+    }
     // xpos = 50;
     // ypos = 50;
     // rect(xpos, ypos, rectSize, rectSize);
