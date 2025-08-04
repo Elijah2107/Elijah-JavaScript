@@ -15,5 +15,5 @@ function mousePressed() {
 }
 function mouseDragged() {
     circle(mouseX, mouseY, circleSize);
-    circleSize = cir
+    circleSize = circleSize + 0.5
 }
