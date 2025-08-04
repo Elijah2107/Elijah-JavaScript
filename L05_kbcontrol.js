@@ -6,3 +6,7 @@ let shapeColor = "red"
 function draw() {
     noStroke();
 }
+
+function mousePressed() {
+    
+}
