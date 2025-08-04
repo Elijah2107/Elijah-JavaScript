@@ -46,7 +46,7 @@ function keyPressed() {
         circle(100,100,100)
     }
     else if (key === 's') {
-        
+        rectangle
     }
 
 }
