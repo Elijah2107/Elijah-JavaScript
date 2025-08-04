@@ -8,6 +8,7 @@ function setup() {
 function draw() {
     background(220);
     noStroke();
+    fill 
     // xpos = 50;
     // ypos = 50;
     // rect(xpos, ypos, rectSize, rectSize);
