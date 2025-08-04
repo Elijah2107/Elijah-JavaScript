@@ -4,5 +4,5 @@ function setup() {
 }
 let shapeColor = "red"
 function draw() {
-    fillShap
+    fill(shapeColor)
 }
