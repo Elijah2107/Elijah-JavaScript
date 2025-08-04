@@ -9,6 +9,8 @@ function draw() {
     background(220);
     noStroke();
     fill("blue");
+    circle(100,100,100);
+
     // xpos = 50;
     // ypos = 50;
     // rect(xpos, ypos, rectSize, rectSize);
