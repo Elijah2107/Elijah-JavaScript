@@ -43,10 +43,13 @@ function keyPressed() {
     //     fill("white");
     // }
     if (key === 'c') {
-        circle(100,100,100)
+        circle(100,100,100);
     }
     else if (key === 's') {
         rectangle(100,100,100,100);
+    }
+    else {
+        
     }
 
 }
