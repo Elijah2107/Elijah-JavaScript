@@ -23,8 +23,8 @@ function mouseDragged() {
 //     circleSize = circleSize + 0.5
 }
 function keyPressed() {
-    rectSize = 200;
+    rectSize = 100;
 }
 function keyReleased() {
-    rectSize = 1;
+    rectSize = 50;
 }
