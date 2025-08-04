@@ -36,7 +36,9 @@ function keyPressed() {
     else if (key === 'y') {
         fill("yellow");
     }
-    
+    else if (key === 'y') {
+        fill("");
+    }
     else {
         fill("white");
     }
