@@ -33,9 +33,10 @@ function keyPressed() {
     else if (key === 'g') {
         fill("green");
     }
-    else if (key === 'g') {
-        fill("green");
+    else if (key === 'y') {
+        fill("yellow");
     }
+    
     else {
         fill("white");
     }
