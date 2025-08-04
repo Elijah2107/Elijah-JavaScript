@@ -8,9 +8,9 @@ function setup() {
 function draw() {
     background(220);
     noStroke();
-    xpos = 50;
-    ypos = 50;
-    rect(xpos, ypos, rectSize, rectSize);
+    // xpos = 50;
+    // ypos = 50;
+    // rect(xpos, ypos, rectSize, rectSize);
 }
 
 function mousePressed() {
