@@ -46,10 +46,10 @@ function keyPressed() {
         circle(100,100,100);
     }
     else if (key === 's') {
-        rectangle(100,100,100,100);
+        rect(100,100,100,100);
     }
     else {
-        
+        triang
     }
 
 }
