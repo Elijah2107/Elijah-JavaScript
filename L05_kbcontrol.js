@@ -12,6 +12,6 @@ function mousePressed() {
 }
 let size = 5
 function mouseDragged() {
-    circle(mouseX, mouseY, size)
+    circle(mouseX, mouseY, size);
     let size = size + 0.5
 }
