@@ -24,8 +24,14 @@ function mouseDragged() {
 }
 function keyPressed() {
     rectSize = 100;
-    if (key === 'r'); {
-        fill("red")
+    if (key === 'r') {
+        fill("red");
+    }
+    else if (key === 'g') {
+        fill("green");
+    }
+    else {
+        fill("white");
     }
 }
 function keyReleased() {
