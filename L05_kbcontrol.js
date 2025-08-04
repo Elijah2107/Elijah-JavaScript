@@ -12,5 +12,5 @@ function mousePressed() {
 }
 let size = 5
 function mouseDragged() {
-    
+    let size = size + 0.5
 }
