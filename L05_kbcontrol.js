@@ -35,22 +35,28 @@ function mouseDragged() {
 function keyPressed() {
     rectSize = 100;
     if (key === 'r') {
+        background(220);
         fill("red");
-        CSSNumericValue(width/2, height/2, 100)
+        circle(width/2, height/2, 100);
     }
     else if (key === 'b') {
+        background(220);
         fill("blue");
     }
     else if (key === 'g') {
+        background(220);
         fill("green");
     }
     else if (key === 'y') {
+        background(220);
         fill("yellow");
     }
     else if (key === 'o') {
+        background(220);
         fill("orange");
     }
     else {
+        background(220);
         fill("white");
     }
 
