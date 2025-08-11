@@ -36,7 +36,7 @@ function keyPressed() {
     rectSize = 100;
     if (key === 'r') {
         fill("red");
-        CSSNumericValue(width/2, height/2)
+        CSSNumericValue(width/2, height/2, 100)
     }
     else if (key === 'b') {
         fill("blue");
