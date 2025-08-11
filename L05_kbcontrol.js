@@ -33,25 +33,25 @@ function mouseDragged() {
 //     circleSize = circleSize + 0.5
 }
 function keyPressed() {
-    // rectSize = 100;
-    // if (key === 'r') {
-    //     fill("red");
-    // }
-    // else if (key === 'b') {
-    //     fill("blue");
-    // }
-    // else if (key === 'g') {
-    //     fill("green");
-    // }
-    // else if (key === 'y') {
-    //     fill("yellow");
-    // }
-    // else if (key === 'o') {
-    //     fill("orange");
-    // }
-    // else {
-    //     fill("white");
-    // }
+    rectSize = 100;
+    if (key === 'r') {
+        fill("red");
+    }
+    else if (key === 'b') {
+        fill("blue");
+    }
+    else if (key === 'g') {
+        fill("green");
+    }
+    else if (key === 'y') {
+        fill("yellow");
+    }
+    else if (key === 'o') {
+        fill("orange");
+    }
+    else {
+        fill("white");
+    }
 
 
 }
