@@ -8,16 +8,16 @@ function setup() {
 function draw() {
     background(220);
     noStroke();
-    fill("blue");
-    if (key === 'c') {
-        circle(100,100,100);
-    }
-    else if (key === 's') {
-        rect(100,100,100,100);
-    }
-    else {
-        triangle(50,350,150,50,350,350);
-    }
+    // fill("blue");
+    // if (key === 'c') {
+    //     circle(100,100,100);
+    // }
+    // else if (key === 's') {
+    //     rect(100,100,100,100);
+    // }
+    // else {
+    //     triangle(50,350,150,50,350,350);
+    // }
     // xpos = 50;
     // ypos = 50;
     // rect(xpos, ypos, rectSize, rectSize);
@@ -33,28 +33,28 @@ function mouseDragged() {
 //     circleSize = circleSize + 0.5
 }
 function keyPressed() {
-    // rectSize = 100;
-    // if (key === 'r') {
-    //     fill("red");
-    // }
-    // else if (key === 'b') {
-    //     fill("blue");
-    // }
-    // else if (key === 'g') {
-    //     fill("green");
-    // }
-    // else if (key === 'y') {
-    //     fill("yellow");
-    // }
-    // else if (key === 'o') {
-    //     fill("orange");
-    // }
-    // else {
-    //     fill("white");
-    // }
+    rectSize = 100;
+    if (key === 'r') {
+        fill("red");
+    }
+    else if (key === 'b') {
+        fill("blue");
+    }
+    else if (key === 'g') {
+        fill("green");
+    }
+    else if (key === 'y') {
+        fill("yellow");
+    }
+    else if (key === 'o') {
+        fill("orange");
+    }
+    else {
+        fill("white");
+    }
 
 
 }
 function keyReleased() {
-    // rectSize = 50;
+    rectSize = 50;
 }
