@@ -1,13 +1,13 @@
 // let circleSize = 5;
-// let shapeColor = "blue";
-let rectSize = 50;
+let xpos = 100;
+let ypos = 100;
+// let rectSize = 50;
 function setup() {
     createCanvas(600,400);
     background(220);
 }
 function draw() {
-    background(220);
-    noStroke();
+    // background(220);
     // fill("blue");
     // if (key === 'c') {
     //     circle(100,100,100);
@@ -21,6 +21,23 @@ function draw() {
     // xpos = 50;
     // ypos = 50;
     // rect(xpos, ypos, rectSize, rectSize);
+    background(220);
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos = xpos + 5;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos = xpos - 5;
+    }
+    xpos = constrain(xpos, 0, width)
+    if (keyIsDown(UP_ARROW)) {
+        ypos = ypos - 5;
+    }
+    if (keyIsDown(DOWN_ARROW)) {
+        ypos = ypos + 5;
+    }
+    xpos = constrain(ypos,0,height);
+    fill("yellow")
+    circle(xpos,ypos, 50);
 }
 
 function mousePressed() {
@@ -33,35 +50,18 @@ function mouseDragged() {
 //     circleSize = circleSize + 0.5
 }
 function keyPressed() {
-    rectSize = 100;
-    if (key === 'r') {
-        background(220);
-        fill("red");
-        circle(width/2, height/2, 100);
-    }
-    else if (key === 'b') {
-        background(220);
-        fill("blue");
-    }
-    else if (key === 'g') {
-        background(220);
-        fill("green");
-    }
-    else if (key === 'y') {
-        background(220);
-        fill("yellow");
-    }
-    else if (key === 'o') {
-        background(220);
-        fill("orange");
-    }
-    else {
-        background(220);
-        fill("white");
-    }
-
-
+    // if (keyCode === 38) {
+    //     background(220);
+    //     fill("red");
+    //     circle(50,100,100,);
+    // }
+    // if (keyCode === 40) {
+    //     background(220);
+    //     fill("black");
+    //     circle(50,100,100,);
+    // }    
+    
 }
 function keyReleased() {
-    rectSize = 50;
+    
 }
