@@ -36,7 +36,7 @@ function keyPressed() {
     rectSize = 100;
     if (key === 'r') {
         fill("red");
-        circle
+        CSSNumericValue(width/2, height/2)
     }
     else if (key === 'b') {
         fill("blue");
