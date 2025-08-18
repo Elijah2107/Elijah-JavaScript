@@ -24,6 +24,7 @@ function draw() {
         x = x+5;
     }
     x = constrain(x, 0, width-110);
+    
 }
 
 function keyPressed() {
