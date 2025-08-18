@@ -15,7 +15,7 @@ function draw() {
         fill(gray);
         rect(x, y, w, h);
         x = x + 40
-        gray = gray + 10;
+        gray = gray + 20;
     }
     
 }
