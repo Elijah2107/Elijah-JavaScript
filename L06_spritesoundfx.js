@@ -20,14 +20,14 @@ function draw() {
     let h = 123;
     image(staticImage, x,y,w,h);
     if (keyIsDown === LEFT_ARROW) {
-        x = x-1;
+        x = x-5;
     }
     if (keyIsDown === RIGHT_ARROW) {
-        x = x+1;
+        x = x+5;
     }
     x = constrain(x, 0, width-110);
     if (keyIsDown === UP_ARROW) {
-        y = y-1;
+        y = y-5;
     }
     if (keyIsDown === DOWN_ARROW) {
         y = y+1;
