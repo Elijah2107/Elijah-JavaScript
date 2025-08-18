@@ -1,4 +1,4 @@
-let x
+let x = 
 function setup() {
     createcanvas(800,600);
     background("steelblue")
