@@ -1,6 +1,7 @@
 let x = 100;
 let y = 100;
-let w = 3
+let w = 30;
+let h - 30
 function setup() {
     createcanvas(800,600);
     background("steelblue")
