@@ -1,6 +1,7 @@
 
 function setup() {
-    createcanvas(800,600)
+    createcanvas(800,600);
+    background("steelblue")
 }
 
 
