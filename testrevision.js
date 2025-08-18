@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-    fill("red")
+    fill(gray)
     //triangle(350,300,450,300,400,200);
     for (let count=0; count<4; count++) {
         rect(x, y, w, h);
