@@ -22,11 +22,11 @@ function draw() {
     if (keyIsDown === LEFT_ARROW) {
         x = x-1;
     }
-    if (keyCode === RIGHT_ARROW) {
+    if (keyIsDown === RIGHT_ARROW) {
         x = x+1;
     }
     x = constrain(x, 0, width-110);
-    if (keyCode === UP_ARROW) {
+    if (keyI === UP_ARROW) {
         y = y-1;
     }
     if (keyCode === DOWN_ARROW) {
