@@ -4,5 +4,6 @@ function setup() {
 }
 
 function draw() {
-    triangle(400,200,350);
+    triangle(400,200,350,300,300,457);
+    random
 }
