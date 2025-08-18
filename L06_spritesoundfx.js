@@ -9,3 +9,5 @@ function setup() {
     createCanvas(200, 200);
     bgMusic.loop();
 }
+
+function draw()
