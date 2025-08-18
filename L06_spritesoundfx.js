@@ -1,5 +1,6 @@
 let soundEffect, bgMusic, staticImage;
 let x =0;
+
 function preload() {
     soundEffect = loadSound("assets/pop.mp3");
     bgMusic = loadSound("assets/bossaNova.mp3");
@@ -14,7 +15,7 @@ function setup() {
 function draw() {
     background("lightblue");
     
-    let y = 0;
+    
     let w = 110;
     let h = 123;
     image(staticImage, x,y,w,h);
