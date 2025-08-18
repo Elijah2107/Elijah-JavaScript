@@ -13,5 +13,6 @@ function setup() {
 function draw() {
     background("lightblue");
     let x = 0;
-    
+    let y = 0;
+    le
 }
