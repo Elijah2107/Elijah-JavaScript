@@ -11,5 +11,7 @@ function setup() {
 }
 
 function draw() {
-    background("lightblue")
+    background("lightblue");
+    let x = 0;
+    
 }
