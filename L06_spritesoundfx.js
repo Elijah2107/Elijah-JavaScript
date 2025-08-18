@@ -26,10 +26,10 @@ function draw() {
         x = x+5;
     }
     x = constrain(x, 0, width-110);
-    if (keyCode === LEFT_ARROW) {
+    if (keyCode === UP_ARROW) {
         y = y-5
     }
-    if (keyCode === RIGHT_ARROW) {
+    if (keyCode === DOWN_ARROW) {
         y = y+5;
     }
     x = constrain(x, 0, width-110);
