@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(400, 200);
+    createCanvas(600, 400);
     bgMusic.loop();
 }
 
