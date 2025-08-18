@@ -20,17 +20,17 @@ function draw() {
     let h = 123;
     image(staticImage, x,y,w,h);
     if (keyCode === LEFT_ARROW) {
-        x = x-5
+        x = x-1;
     }
     if (keyCode === RIGHT_ARROW) {
-        x = x+5;
+        x = x+1;
     }
     x = constrain(x, 0, width-110);
     if (keyCode === UP_ARROW) {
-        y = y-5
+        y = y-1
     }
     if (keyCode === DOWN_ARROW) {
-        y = y+5;
+        y = y+1;
     }
     y = constrain(y, 0, height-133);
     
