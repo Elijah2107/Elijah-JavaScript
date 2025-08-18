@@ -32,7 +32,7 @@ function draw() {
     if (keyCode === DOWN_ARROW) {
         y = y+5;
     }
-    x = constrain(x, 0, width-110);
+    y = constrain(y, 0, width-110);
     
 }
 
