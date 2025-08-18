@@ -4,6 +4,6 @@ function setup() {
 }
 
 function draw() {
-    triangle(400,200,350,300,300,457);
+    triangle(350,300,350,300,300,457);
     fill("red")
 }
