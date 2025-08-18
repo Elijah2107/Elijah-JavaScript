@@ -23,6 +23,7 @@ function draw() {
     if (keyCode === RIGHT_ARROW) {
         x = x+5;
     }
+    x = constraim
 }
 
 function keyPressed() {
