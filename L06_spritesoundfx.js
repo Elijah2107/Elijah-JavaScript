@@ -18,10 +18,10 @@ function draw() {
     let h = 123;
     image(staticImage, x,y,w,h);
     if (keyCode === LEFT_ARROW) {
-        x = x - 5
+        x = x-5
     }
     if (keyCode === RIGHT_ARROW) {
-        x = x+5
+        x = x+5;
     }
 }
 
