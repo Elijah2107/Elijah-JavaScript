@@ -15,6 +15,7 @@ function draw() {
     for (let count=0; count<4; count++) {
         rect(x, y, w, h);
         x = x + 40
+        gray = gray + 50;
     }
     
 }
