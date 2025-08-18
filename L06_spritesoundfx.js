@@ -16,5 +16,5 @@ function draw() {
     let y = 0;
     let w = 110;
     let h = 123;
-    image(static)
+    image(staticImage, x,)
 }
