@@ -19,7 +19,7 @@ function draw() {
     let w = 110;
     let h = 123;
     image(staticImage, x,y,w,h);
-    if (keyCode === LEFT_ARROW) {
+    if (keyIsDown === LEFT_ARROW) {
         x = x-1;
     }
     if (keyCode === RIGHT_ARROW) {
