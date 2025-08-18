@@ -4,5 +4,5 @@ function setup() {
 }
 
 function draw() {
-    triangle(400,300);
+    triangle(400,350);
 }
