@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(200, 200);
+    createCanvas(400, 200);
     bgMusic.loop();
 }
 
