@@ -5,7 +5,7 @@ function preload() {
     soundEffect = loadSound("assets/pop.mp3");
     bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
     staticImage = loadImage("assets/pico-a.png");
-    secondguy = loadImage("assets/steve.svg")
+    seco = loadImage("assets/steve.svg")
 }
 
 function setup() {
@@ -20,7 +20,7 @@ function draw() {
     let w = 110;
     let h = 123;
     image(staticImage, x,y,w,h);
-    image
+    image(secondGuy)
     if (keyIsDown( LEFT_ARROW)) {
         x = x-5;
     }
