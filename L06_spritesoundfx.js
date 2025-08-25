@@ -5,7 +5,7 @@ function preload() {
     soundEffect = loadSound("assets/pop.mp3");
     bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
     staticImage = loadImage("assets/pico-a.png");
-    secondguy = loadImage
+    secondguy = loadImage("assets/")
 }
 
 function setup() {
