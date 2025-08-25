@@ -20,7 +20,7 @@ function draw() {
     let w = 110;
     let h = 123;
     image(staticImage, x,y,w,h);
-    image(secondGuy)
+    image(secondGuy,x,y,w,h)
     if (keyIsDown( LEFT_ARROW)) {
         x = x-5;
     }
