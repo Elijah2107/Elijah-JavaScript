@@ -3,7 +3,7 @@ let x =0;
 let y = 0;
 function preload() {
     soundEffect = loadSound("assets/pop.mp3");
-    bgMusic = loadSound("assets/dun4.mp3");
+    bgMusic = loadSound("assets/pop.mp3");
     staticImage = loadImage("assets/pico-a.png");
 }
 
