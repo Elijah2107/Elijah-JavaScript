@@ -20,6 +20,7 @@ function draw() {
     let w = 110;
     let h = 123;
     image(staticImage, x,y,w,h);
+    image
     if (keyIsDown( LEFT_ARROW)) {
         x = x-5;
     }
