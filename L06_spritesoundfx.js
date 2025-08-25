@@ -1,6 +1,7 @@
 let soundEffect, bgMusic, staticImage;
 let x =0;
 let y = 0;
+let secondguy
 function preload() {
     soundEffect = loadSound("assets/pop.mp3");
     bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
