@@ -13,6 +13,7 @@ function preload() {
 function setup() {
     createCanvas(600, 400);
     bgMusic.loop();
+    
 }
 
 function draw() {
@@ -22,8 +23,7 @@ function draw() {
     let w = 110;
     let h = 123;
     image(staticImage, x,y,w,h);
-    secondguyX = 200;
-    secondguyY = 200;
+    
     image(secondGuy,200,200,96,128)
     if (keyIsDown( LEFT_ARROW)) {
         x = x-5;
