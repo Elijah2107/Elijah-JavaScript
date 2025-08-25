@@ -13,7 +13,8 @@ function preload() {
 function setup() {
     createCanvas(600, 400);
     bgMusic.loop();
-    
+    secondguyX = 200;
+    secondguyY = 200;
 }
 
 function draw() {
