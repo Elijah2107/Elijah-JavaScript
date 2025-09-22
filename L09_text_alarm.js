@@ -9,7 +9,8 @@ function draw() {
     let hour24 = hour();
     textSize(32);
     textAlign(CENTER,CENTER);
-    fill("red")
+    fill("red");
+    text("hour is ")
 }
 // function draw() {
 //     background(220);
