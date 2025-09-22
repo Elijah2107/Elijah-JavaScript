@@ -11,7 +11,7 @@ function setup() {
     xpos = width/2;
 }
 function draw() {
-    background(220);
+    background(bgcolor);
     let aHour = hour() -12;
     aHour = nf(aHour,2);
     let aMinute = minute();
