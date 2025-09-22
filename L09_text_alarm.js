@@ -1,7 +1,7 @@
 let xpos;
 let velocityX = 4;
 let sfx;
-let bgcolor = "pink"
+let bgcolor = "pink";
 function preload() {
     sfx = loadSound("assets/Win.mp3");
 }
