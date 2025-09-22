@@ -10,9 +10,9 @@ function draw() {
     let aHour = hour() -12;
     aHour = nf(aHour, 4);
     let aMinute = minute();
-    aMinute = nf(aMinute, 4;
+    aMinute = nf(aMinute, 4);
     let aSecond = second();
-    aSecond = nf(aSecond, 2)
+    aSecond = nf(aSecond, 4)
     textSize(32);
     textAlign(CENTER,CENTER);
     fill("red");
