@@ -27,6 +27,11 @@ function draw() {
 function mousePressed() {
     sfx.play();
 }
+function keyPressed() {
+    if (keyCode === 32) {
+        
+    }
+}
 // function draw() {
 //     background(220);
 //     textSize(32);
