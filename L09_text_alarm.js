@@ -1,5 +1,8 @@
 let xpos;
 let velocityX = 4;
+function preload() {
+    
+}
 function setup() {
     createCanvas(600,400);
     background(220);
