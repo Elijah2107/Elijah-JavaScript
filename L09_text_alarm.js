@@ -12,7 +12,7 @@ function draw() {
     let aMinute = minute();
     aMinute = nf(aMinute, 2);
     let aSecond = second();
-    aSecond
+    aSecond = nf(aMinute, 2)
     textSize(32);
     textAlign(CENTER,CENTER);
     fill("red");
