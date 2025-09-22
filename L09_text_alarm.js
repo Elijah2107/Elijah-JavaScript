@@ -8,11 +8,11 @@ function setup() {
 function draw() {
     background(220);
     let aHour = hour() -12;
-    aHour = nf(aHour,10);
+    aHour = nf(aHour,2);
     let aMinute = minute();
-    aMinute = nf(aMinute, 10);
+    aMinute = nf(aMinute, 2);
     let aSecond = second();
-    aSecond = nf(aSecond, 10)
+    aSecond = nf(aSecond, 2)
     textSize(32);
     textAlign(CENTER,CENTER);
     fill("red");
