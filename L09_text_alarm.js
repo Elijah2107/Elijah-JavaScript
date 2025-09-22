@@ -2,7 +2,7 @@ let xpos;
 let velocityX = 4;
 let sfx;
 function preload() {
-    sfx = loadSound("assets/DunDunDunnn.mp3");
+    sfx = loadSound("assets/Win.mp3");
 }
 function setup() {
     createCanvas(600,400);
