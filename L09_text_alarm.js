@@ -7,7 +7,8 @@ function setup() {
 }
 function draw() {
     let hour24 = hour();
-    textSize()
+    textSize(32);
+    textAlign
 }
 // function draw() {
 //     background(220);
