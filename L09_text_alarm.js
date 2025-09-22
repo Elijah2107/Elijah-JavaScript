@@ -12,7 +12,7 @@ function draw() {
     textSize(32);
     textAlign(CENTER,CENTER);
     fill("red");
-    text("hour is " + aHour + ":" + aMinute + ":" width/2, height/2);
+    text("hour is " + aHour + ":" + aMinute + ":" + width/2, height/2);
     //text("minute is " + nowMinute, width/2, height/2);
 }
 // function draw() {
