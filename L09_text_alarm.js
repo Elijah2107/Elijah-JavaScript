@@ -7,5 +7,5 @@ function setup() {
 function draw() {
     textSize(32);
     textAlign(CENTER,CENTER);
-    text("Bounce!", width/2, height/2);
+    text("Bounce!", xposs, height/2);
 }
