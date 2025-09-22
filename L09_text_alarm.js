@@ -3,5 +3,8 @@ function setup() {
     background(0);
 }
 function draw() {
+    translate(width/2,ypos);
     
+    textSize(75);
+    textAlign(CENTER,CENTER);
 }
