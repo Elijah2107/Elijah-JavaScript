@@ -12,7 +12,7 @@ function draw() {
     textAlign(CENTER,CENTER);
     fill("red");
     text("hour is " + hour24, width/2, height/2);
-    text()
+    text("minute is " + )
 }
 // function draw() {
 //     background(220);
