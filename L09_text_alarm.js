@@ -23,7 +23,7 @@ function draw() {
     //text("minute is " + nowMinute, width/2, height/2);
 }
 function mousePressed() {
-    
+    sfx.play();
 }
 // function draw() {
 //     background(220);
