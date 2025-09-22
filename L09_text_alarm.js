@@ -8,6 +8,7 @@ function setup() {
 function draw() {
     background(220);
     let aHour = hour() -12;
+    aHour = nf
     let aMinute = minute();
     let aSecond = second();
     textSize(32);
