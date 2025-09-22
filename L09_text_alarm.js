@@ -1,7 +1,7 @@
 let xpos;
 let velocityX = 4;
 function preload() {
-    "assets/DunDUn"
+    "assets/DunDunDunnn.mp3"
 }
 function setup() {
     createCanvas(600,400);
