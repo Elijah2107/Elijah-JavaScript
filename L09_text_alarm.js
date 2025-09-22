@@ -6,6 +6,7 @@ function setup() {
     xpos = width/2;
 }
 function draw() {
+    background(220);
     textSize(32);
     textAlign(CENTER,CENTER);
     text("Bounce!", xpos, height/2);
