@@ -5,7 +5,9 @@ function setup() {
     background(220);
     xpos = width/2;
 }
-function draw()
+function draw() {
+    
+}
 // function draw() {
 //     background(220);
 //     textSize(32);
