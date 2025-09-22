@@ -7,7 +7,7 @@ function setup() {
 }
 function draw() {
     let ahour = hour() -12;
-    let inute = minute();
+    let aMinute = minute();
     textSize(32);
     textAlign(CENTER,CENTER);
     fill("red");
