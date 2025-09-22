@@ -6,8 +6,8 @@ function setup() {
     xpos = width/2;
 }
 function draw() {
-    let hour24 = hour() -12;
-    let nowMinute = minute();
+    let ahour = hour() -12;
+    let inute = minute();
     textSize(32);
     textAlign(CENTER,CENTER);
     fill("red");
