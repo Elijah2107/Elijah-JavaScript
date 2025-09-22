@@ -8,9 +8,9 @@ function setup() {
 function draw() {
     background(220);
     let aHour = hour() -12;
-    aHour = nf(aHour, 2);
+    aHour = nf(aHour, 4);
     let aMinute = minute();
-    aMinute = nf(aMinute, 2);
+    aMinute = nf(aMinute, 4;
     let aSecond = second();
     aSecond = nf(aSecond, 2)
     textSize(32);
