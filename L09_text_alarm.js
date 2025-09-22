@@ -7,7 +7,6 @@ function setup() {
 }
 function draw() {
     textSize(32);
-    fill(black)
     textAlign(CENTER,CENTER);
     text("Bounce!", xpos, height/2);
     xpos = xpos + velocityX;
