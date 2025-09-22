@@ -1,7 +1,7 @@
 let xpos;
 let velocityX = 4;
 function preload() {
-    "assets/DunDunDunnn.mp3"
+    sfx = "assets/DunDunDunnn.mp3"
 }
 function setup() {
     createCanvas(600,400);
