@@ -10,7 +10,7 @@ function draw() {
     let aHour = hour() -12;
     aHour = nf(aHour,10);
     let aMinute = minute();
-    aMinute = nf(aMinute, 7);
+    aMinute = nf(aMinute, 10);
     let aSecond = second();
     aSecond = nf(aSecond, 10)
     textSize(32);
