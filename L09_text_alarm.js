@@ -22,7 +22,7 @@ function draw() {
     textAlign(CENTER,CENTER);
     fill("red");
     text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, height/2);
-    text()
+    text(Countdown)
 }
 function mousePressed() {
     sfx.play();
