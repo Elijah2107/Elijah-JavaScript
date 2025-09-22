@@ -8,4 +8,5 @@ function draw() {
     textSize(32);
     textAlign(CENTER,CENTER);
     text("Bounce!", xposs, height/2);
+    xpos = xpos + 0.6;
 }
