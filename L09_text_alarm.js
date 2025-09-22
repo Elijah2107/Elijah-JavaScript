@@ -22,6 +22,9 @@ function draw() {
     text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, height/2);
     //text("minute is " + nowMinute, width/2, height/2);
 }
+function mousePressed() {
+    
+}
 // function draw() {
 //     background(220);
 //     textSize(32);
