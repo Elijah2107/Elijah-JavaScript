@@ -22,7 +22,7 @@ function draw() {
     textAlign(CENTER,CENTER);
     fill("red");
     text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, 100);
-    text("Countdown Timer:")
+    text("Countdown Timer:", width/2, )
     text("0")
     text("Click me to start the timer")
 }
