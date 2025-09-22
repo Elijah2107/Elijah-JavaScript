@@ -24,6 +24,7 @@ function draw() {
     text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, height/2);
     text("Countdown Timer:")
     text("0")
+    text()
 }
 function mousePressed() {
     sfx.play();
