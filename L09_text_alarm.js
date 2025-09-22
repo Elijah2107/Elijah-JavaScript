@@ -6,6 +6,7 @@ function setup() {
     xpos = width/2;
 }
 function draw() {
+    background(220);
     let aHour = hour() -12;
     let aMinute = minute();
     let aSecond = second();
