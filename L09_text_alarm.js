@@ -1,5 +1,5 @@
 let xpos;
-let velocityX = 2;
+let velocityX = 1.1;
 function setup() {
     createCanvas(600,400);
     background(220);
@@ -12,9 +12,9 @@ function draw() {
     text("Bounce!", xpos, height/2);
     xpos = xpos + velocityX;
     if (xpos > width) {
-        velocityX = velocityX *-2;
+        velocityX = velocityX *-1.1;
     }
     else if (xpos < 0) {
-        velocityX = velocityX *-2;
+        velocityX = velocityX *-1.1;
     }
 }
