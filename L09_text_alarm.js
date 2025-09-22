@@ -1,6 +1,6 @@
 let xpos;
 let velocityX = 4;
-let spx;
+let sfx;
 function preload() {
     sfx = loadsound("assets/DunDunDunnn.mp3");
 }
