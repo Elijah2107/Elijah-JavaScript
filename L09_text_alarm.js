@@ -1,7 +1,7 @@
 let xpos;
 let velocityX = 4;
 function preload() {
-    ""
+    "assets/DunDUn"
 }
 function setup() {
     createCanvas(600,400);
