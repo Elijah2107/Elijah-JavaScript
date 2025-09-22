@@ -10,6 +10,7 @@ function draw() {
     let aHour = hour() -12;
     aHour = nf(aHour, 2);
     let aMinute = minute();
+    aMinute
     let aSecond = second();
     textSize(32);
     textAlign(CENTER,CENTER);
