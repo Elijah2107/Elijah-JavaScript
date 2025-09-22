@@ -1,13 +1,13 @@
-let ypos;
+let xpos;
 function setup() {
     createCanvas(600,400);
     background(220);
-    ypos
+    xpos = 
 }
 function draw() {
     translate(width/2,ypos);
     textSize(32);
     fill("black");
     textAlign(CENTER,CENTER);
-    text("Bounce!");
+    text("Bounce!", width/2, height/2);
 }
