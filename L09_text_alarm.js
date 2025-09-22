@@ -21,7 +21,7 @@ function draw() {
     textSize(32);
     textAlign(CENTER,CENTER);
     fill("red");
-    text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, height/2);
+    text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, 100);
     text("Countdown Timer:")
     text("0")
     text("Click me to start the timer")
