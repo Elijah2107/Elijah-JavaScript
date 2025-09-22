@@ -5,6 +5,7 @@ function setup() {
 function draw() {
     translate(width/2,ypos);
     textSize(75);
+    
     textAlign(CENTER,CENTER);
     text("Bounce!");
 }
