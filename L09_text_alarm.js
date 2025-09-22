@@ -6,7 +6,7 @@ function setup() {
     xpos = width/2;
 }
 function draw() {
-    let hour24
+    let hour24 = hour()
 }
 // function draw() {
 //     background(220);
