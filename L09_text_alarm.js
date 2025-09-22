@@ -22,7 +22,8 @@ function draw() {
     textAlign(CENTER,CENTER);
     fill("red");
     text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, height/2);
-    text("Countdown Timer")
+    text("Countdown Timer:")
+    text("0")
 }
 function mousePressed() {
     sfx.play();
