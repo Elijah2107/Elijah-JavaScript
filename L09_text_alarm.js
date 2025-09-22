@@ -1,5 +1,5 @@
 let xpos;
-let velocityX = 1.1;
+let velocityX = 2;
 function setup() {
     createCanvas(600,400);
     background(220);
