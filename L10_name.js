@@ -7,7 +7,7 @@ function setup() {
     colorPicker.position(width/2, height/2);
 }
 function draw() {
-    background (colorPicker.value)
+    background (colorPicker.value());
     fill("white");
     rect(100,50,400,100,25);
 }
