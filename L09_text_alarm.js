@@ -3,7 +3,7 @@ let velocityX = 4;
 let sfx;
 let bgcolor = "pink";
 let objectID;
-let counter = 100;
+let counter = 10;
 function preload() {
     sfx = loadSound("assets/Win.mp3");
 }
@@ -15,7 +15,7 @@ function setup() {
 }
 function countdown() {
     counter--;
-    counter = constrain(counter, 0, 100);
+    counter = constrain(counter, 0, 10);
     if (counter === 0) {
         sfx.play();
         clearInterval(objectID);
