@@ -20,7 +20,7 @@ function countdown() {
     if (counter === 0) {
         sfx.play();
         clearInterval(objectID);
-        secondID = setIn
+        secondID = setInve
     }
 }
 
