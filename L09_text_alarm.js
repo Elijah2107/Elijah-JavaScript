@@ -27,7 +27,7 @@ let colorChanged = 0;
 function changeColor() {
     colorChanged++;
     if(colorChanged > 5) {
-        clearInterval
+        clearInterval(secondID);
     }
     bgcolor = color(random(255), random(255), random(255));
 }
