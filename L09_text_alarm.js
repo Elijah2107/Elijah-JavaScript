@@ -25,7 +25,8 @@ function draw() {
     text("Countdown Timer:", width/2, 130);
     text("0", width/2, 160);
     text("Click me to start the timer", width/2, 200);
-    pie = 3.14159265358979
+    pie = 3.14159265358979;
+    console.log(nf)
 
 }
 function mousePressed() {
