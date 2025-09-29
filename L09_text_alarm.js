@@ -42,7 +42,7 @@ function draw() {
 
 }
 function mousePressed() {
-    sfx.play();
+    //sfx.play();
 }
 function keyPressed() {
     if (keyCode === 32) {
