@@ -24,7 +24,7 @@ function countdown() {
     }
 }
 function changeColor() {
-    
+    color(random(255))
 }
 
 function draw() {
