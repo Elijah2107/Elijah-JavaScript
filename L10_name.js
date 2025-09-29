@@ -4,7 +4,7 @@ function setup() {
     createCanvas(600,600);
     background(bgcolor);
     colorPicker = createColorPicker();
-    colorPicker
+    colorPicker.position
 }
 function draw() {
     fill("white");
