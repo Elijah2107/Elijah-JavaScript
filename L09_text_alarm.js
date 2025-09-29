@@ -8,6 +8,7 @@ function preload() {
     sfx = loadSound("assets/Win.mp3");
 }
 function setup() {
+    createCanvas
     xpos = width/2;
 }
     
