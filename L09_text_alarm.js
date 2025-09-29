@@ -14,7 +14,7 @@ function setup() {
     objectID = setInterval(countdown, 1000);
 }
 function countdown() {
-    
+    counter--;
 }
 
 function draw() {
