@@ -53,11 +53,11 @@ function mousePressed() {
     }
     
 }
-function keyPressed() {
-    if (keyCode === 32) {
-        bgcolor = color(random(255), random(255), random(255));
-    }
-}
+// function keyPressed() {
+//     if (keyCode === 32) {
+//         bgcolor = color(random(255), random(255), random(255));
+//     }
+// }
 // function draw() {
 //     background(220);
 //     textSize(32);
