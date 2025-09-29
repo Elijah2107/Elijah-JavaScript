@@ -6,9 +6,9 @@ function preload() {
     sfx = loadSound("assets/Win.mp3");
 }
 function setup() {
-
-}
     xpos = width/2;
+}
+    
 
 function draw() {
     background(bgcolor);
