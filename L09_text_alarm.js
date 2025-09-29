@@ -15,6 +15,7 @@ function setup() {
 }
 function countdown() {
     counter--;
+    counter = constrain
 }
 
 function draw() {
