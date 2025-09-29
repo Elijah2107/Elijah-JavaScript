@@ -3,7 +3,7 @@ let velocityX = 4;
 let sfx;
 let bgcolor = "pink";
 let objectID;
-let counter = 1000;
+let counter = 157680000000;
 function preload() {
     sfx = loadSound("assets/Win.mp3");
 }
