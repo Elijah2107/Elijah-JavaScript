@@ -11,6 +11,7 @@ function setup() {
     createCanvas(600,400);
     background(bgcolor);
     xpos = width/2;
+    objectID = set
 }
     
 
