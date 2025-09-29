@@ -30,7 +30,7 @@ function draw() {
     fill("red");
     text("time now " + aHour + ":" + aMinute + ":" + aSecond, width/2, 100);
     text("Countdown Timer:", width/2, 130);
-    text("0", width/2, 160);
+    text(counter);
     text("Click me to start the timer", width/2, 200);
     pi = 3.14159265358979;
     console.log(nf(pi,1,3));
