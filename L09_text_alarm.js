@@ -25,7 +25,7 @@ function countdown() {
 }
 let colorChanged = 0;
 function changeColor() {
-    color
+    colorChanged++
     bgcolor = color(random(255), random(255), random(255));
 }
 
