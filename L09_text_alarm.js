@@ -6,10 +6,10 @@ function preload() {
     sfx = loadSound("assets/Win.mp3");
 }
 function setup() {
-    createCanvas(600,400);
-    background(bgcolor);
-    xpos = width/2;
+
 }
+    xpos = width/2;
+
 function draw() {
     background(bgcolor);
     let aHour = hour() -12;
@@ -25,6 +25,7 @@ function draw() {
     text("Countdown Timer:", width/2, 130);
     text("0", width/2, 160);
     text("Click me to start the timer", width/2, 200);
+
 }
 function mousePressed() {
     sfx.play();
