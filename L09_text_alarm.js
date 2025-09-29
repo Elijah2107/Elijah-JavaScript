@@ -42,7 +42,8 @@ function draw() {
 
 }
 function mousePressed() {
-    //sfx.play();objectID = setInterval(countdown, 1000);
+    //sfx.play();
+    if
     objectID = setInterval(countdown, 1000);
 }
 function keyPressed() {
