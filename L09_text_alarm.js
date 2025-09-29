@@ -43,7 +43,7 @@ function draw() {
 }
 function mousePressed() {
     //sfx.play();
-    if(counter === 10) {
+    if(counter === 1000) {
         objectID = setInterval(countdown, 1000);
     }
     
