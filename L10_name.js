@@ -3,7 +3,8 @@ let colorPicker;
 function setup() {
     createCanvas(600,600);
     background(bgcolor);
-    colorPicker = createColorPicker
+    colorPicker = createColorPicker();
+    colorPicker
 }
 function draw() {
     fill("white");
