@@ -4,5 +4,5 @@ function setup() {
 }
 function draw() {
     fill("white");
-    rect(100,50,400,100,1)
+    rect(100,50,400,100,3)
 }
