@@ -11,7 +11,7 @@ function setup() {
     createCanvas(600,400);
     background(bgcolor);
     xpos = width/2;
-    objectID = setInterval(countdown, 1000);
+    
 }
 function countdown() {
     counter--;
@@ -42,7 +42,8 @@ function draw() {
 
 }
 function mousePressed() {
-    //sfx.play();
+    //sfx.play();objectID = setInterval(countdown, 1000);
+
 }
 function keyPressed() {
     if (keyCode === 32) {
