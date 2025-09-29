@@ -23,6 +23,9 @@ function countdown() {
         secondID = setInterval(changeColor, 500);
     }
 }
+function changeColor() {
+    
+}
 
 function draw() {
     background(bgcolor);
