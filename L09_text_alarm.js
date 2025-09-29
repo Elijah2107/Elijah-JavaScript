@@ -4,6 +4,7 @@ let sfx;
 let bgcolor = "pink";
 let objectID;
 let counter = 10;
+let secondID = 
 function preload() {
     sfx = loadSound("assets/Win.mp3");
 }
