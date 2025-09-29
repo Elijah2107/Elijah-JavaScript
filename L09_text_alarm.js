@@ -11,7 +11,7 @@ function setup() {
     createCanvas(600,400);
     background(bgcolor);
     xpos = width/2;
-    objectID = setInterval();
+    objectID = setInterval(countdown, 1000);
 }
     
 
