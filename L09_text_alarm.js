@@ -37,8 +37,8 @@ function draw() {
     text("Countdown Timer:", width/2, 130);
     text(counter, width/2, 225);
     text("Click me to start the timer", width/2, 200);
-    pi = 3.14159265358979;
-    console.log(nf(pi,1,3));
+    //pi = 3.14159265358979;
+    //console.log(nf(pi,1,3));
 
 }
 function mousePressed() {
