@@ -7,7 +7,8 @@ function setup() {
     background(bgcolor);
     colorPicker = createColorPicker(bgcolor);
     colorPicker.position(width/2, height/2);
-    userInput = createInput(username)
+    userInput = createInput(username);
+    userInput.position
 }
 function draw() {
     background (colorPicker.value());
