@@ -10,6 +10,7 @@ function setup() {
     userInput = createInput(username);
     userInput.position(width/2,height/2 + 50);
     userInput.input(updateName);
+    
 }
 function updateName() {
     username = userInput.value();
