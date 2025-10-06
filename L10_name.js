@@ -30,7 +30,7 @@ function draw() {
     textSize(25);
     textAlign(LEFT,CENTER);
     text(username, 150, 120);
-    
+    text(age,)
     textAlign(RIGHT,CENTER);
     text("Change Color here: ", width/2, height/2+10);
     text("Enter your name: ",  width/2, height/2+62);
