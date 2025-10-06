@@ -2,6 +2,7 @@ let bgcolor = "blue";
 let colorPicker;
 let username = "Elijah"
 let userInput;
+let age;
 function setup() {
     createCanvas(600,600);
     background(bgcolor);
@@ -10,7 +11,7 @@ function setup() {
     userInput = createInput(username);
     userInput.position(width/2,height/2 + 50);
     userInput.input(updateName);
-    
+    user
 }
 function updateName() {
     username = userInput.value();
