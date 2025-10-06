@@ -4,6 +4,8 @@ let username = "Elijah"
 let userInput;
 let age = 12;
 let ageInput;
+let dob;
+let dobInput;
 function setup() {
     createCanvas(600,600);
     background(bgcolor);
