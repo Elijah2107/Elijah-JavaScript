@@ -22,7 +22,7 @@ function setup() {
     dobInput.input(updateDOB);
 }
 function updateDOB() {
-    dob = dobInput
+    dob = dobInput.value();
 }
 function updateAge() {
     age = ageInput.value();
