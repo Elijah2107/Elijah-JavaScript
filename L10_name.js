@@ -3,7 +3,7 @@ let colorPicker;
 function setup() {
     createCanvas(600,600);
     background(bgcolor);
-    colorPicker = createColorPicker();
+    colorPicker = createColorPicker(bgcolor);
     colorPicker.position(width/2, height/2);
 }
 function draw() {
