@@ -12,7 +12,7 @@ function setup() {
     userInput.input(updateName);
 }
 function updateName() {
-    
+    username = user
 }
 function draw() {
     background (colorPicker.value());
