@@ -1,4 +1,4 @@
-let bgcolor = "purple";
+let bgcolor = "blue";
 let colorPicker;
 function setup() {
     createCanvas(600,600);
