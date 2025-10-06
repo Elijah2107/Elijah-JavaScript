@@ -13,6 +13,7 @@ function setup() {
     colorPicker.position(width/2, height/2);
     userInput = createInput(username);
     userInput.position(width/2,height/2 + 50);
+    userInput
     userInput.input(updateName);
     ageInput = createInput(age, "number");
     ageInput.position(width/2,height/2 + 80)
