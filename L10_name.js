@@ -16,7 +16,9 @@ function setup() {
     ageInput.position(width/2,height/2 + 80)
     userInput.input(update);
 }
-function updateAge()
+function updateAge() {
+    username = user
+}
 function updateName() {
     username = userInput.value();
 }
