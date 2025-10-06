@@ -2,7 +2,7 @@ let bgcolor = "blue";
 let colorPicker;
 let username = "Elijah"
 let userInput;
-let age= 99;
+let age = 12;
 let ageInput;
 function setup() {
     createCanvas(600,600);
