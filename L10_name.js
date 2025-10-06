@@ -1,5 +1,7 @@
 let bgcolor = "blue";
 let colorPicker;
+let username;
+let u
 function setup() {
     createCanvas(600,600);
     background(bgcolor);
