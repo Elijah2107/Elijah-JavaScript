@@ -9,7 +9,10 @@ function setup() {
     colorPicker.position(width/2, height/2);
     userInput = createInput(username);
     userInput.position(width/2,height/2 + 50);
-    userInput.input(upd)
+    userInput.input(updateName);
+}
+function updateName() {
+    
 }
 function draw() {
     background (colorPicker.value());
