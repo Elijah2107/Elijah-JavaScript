@@ -20,7 +20,7 @@ function draw() {
     rect(100,50,400,200,25);
     fill("black");
     textSize(25);
-    textAlign(LEFT)
+    textAlign(LEFT,CENTER);
     text(username, 150, 120);
     textAlign(RIGHT,CENTER);
     textSize(18);
