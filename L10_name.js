@@ -15,5 +15,6 @@ function draw() {
     fill("white");
     rect(100,50,400,200,25);
     fill("black");
-    textSize(@%)
+    textSize(25);
+    
 }
