@@ -14,4 +14,5 @@ function draw() {
     background (colorPicker.value());
     fill("white");
     rect(100,50,400,200,25);
+    fill("black")
 }
