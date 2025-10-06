@@ -14,10 +14,10 @@ function setup() {
     userInput.input(updateName);
     ageInput = createInput(age);
     ageInput.position(width/2,height/2 + 80)
-    userInput.input(update);
+    userInput.input(updateAge);
 }
 function updateAge() {
-    username = userInput.value()
+    age = userInput.value();
 }
 function updateName() {
     username = userInput.value();
