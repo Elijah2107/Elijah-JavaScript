@@ -25,5 +25,5 @@ function draw() {
     // story = "MINECRAFT";
     textSize(18);
     textAlign(RIGHT, CENTER);
-    text(story, 300,300);
+    text("Enter noun:", 180,60)
 }
