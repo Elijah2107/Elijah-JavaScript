@@ -10,7 +10,7 @@ function setup() {
     story = 0;
 }
 function changeText() {
-    story = "ANGRY ME";
+    story++
 }
 function draw() {
     fill("white");
