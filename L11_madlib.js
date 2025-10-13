@@ -7,5 +7,5 @@ function setup() {
     button1.size(100,80);
 }
 function draw() {
-    
+    fill("white")
 }
