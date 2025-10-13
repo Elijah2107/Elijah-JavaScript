@@ -14,7 +14,7 @@ function setup() {
 
 }
 function changeText() {
-    story = 
+    story = sometextInput.value
 }
 function draw() {
     fill("white");
