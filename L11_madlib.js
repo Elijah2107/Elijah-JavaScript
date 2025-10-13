@@ -9,7 +9,7 @@ function setup() {
     button1.mousePressed( changeText );
 }
 function changeText() {
-    
+    story = ""
 }
 function draw() {
     fill("white");
