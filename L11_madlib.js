@@ -1,6 +1,6 @@
 let button1;
 function setup() {
-    createCanvas(600,400);
+    createCanvas(600,600);
     background("black");
     button1 = createButton(" Click on Me! ")
     button1.position(50, 50);
