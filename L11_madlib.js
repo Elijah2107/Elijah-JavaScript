@@ -8,6 +8,9 @@ function setup() {
     button1.size(100,80);
     button1.mousePressed( changeText );
 }
+function changeText() {
+    
+}
 function draw() {
     fill("white");
     noStroke();
