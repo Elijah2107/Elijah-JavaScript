@@ -12,7 +12,7 @@ function draw() {
     noStroke();
     rect(100,200,400,300,25);
     fill("red");
-    story = "MINECRAFT"
-    
+    story = "MINECRAFT";
+    textSize(48);
     text(story, 300,300);
 }
