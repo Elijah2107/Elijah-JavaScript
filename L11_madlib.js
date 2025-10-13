@@ -13,7 +13,7 @@ function setup() {
     sometextInput = createInput();
     sometextInput.position(50,60);
     sometextInput = createInput();
-    sometextInput.position(50,60);
+    sometextInput.position(50,120);
 
 
 }
