@@ -13,5 +13,6 @@ function draw() {
     rect(100,200,400,300,25);
     fill("red");
     story = "MINECRAFT"
+    
     text(story, 300,300);
 }
