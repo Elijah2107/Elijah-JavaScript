@@ -9,7 +9,7 @@ function setup() {
     button1.size(100,80);
     button1.mousePressed( changeText );
     sometextInput = createInput();
-    sometextInput
+    sometextInput.position(50,50);
 
     //story = 0;
 }
