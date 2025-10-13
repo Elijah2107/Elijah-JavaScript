@@ -14,6 +14,9 @@ function setup() {
     sometextInput.position(50,60);
     sometextInput = createInput();
     sometextInput.position(50,120);
+    sometextInput = createInput();
+    sometextInput.position(50,120);
+
 
 
 }
