@@ -31,5 +31,5 @@ function draw() {
     text("Enter noun:", 180,60);
     text("Enter verb:", 180,120);
     text("Enter adjective:", 180,180);
-    text("")
+    text("Enter adverb")
 }
