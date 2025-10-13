@@ -14,5 +14,6 @@ function draw() {
     fill("red");
     story = "MINECRAFT";
     textSize(48);
+    textAlign
     text(story, 300,300);
 }
