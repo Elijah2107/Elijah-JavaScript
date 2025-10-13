@@ -6,4 +6,6 @@ function setup() {
     button1.position(50, 50);
     button1.size(100,80);
 }
-function draw() {}
+function draw() {
+    
+}
