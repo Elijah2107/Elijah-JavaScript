@@ -29,5 +29,5 @@ function draw() {
     textSize(18);
     textAlign(RIGHT, CENTER);
     text("Enter noun:", 180,60)
-    text("Enter verb")
+    text("Enter verb:")
 }
