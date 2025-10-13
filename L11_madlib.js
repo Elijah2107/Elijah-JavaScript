@@ -3,5 +3,6 @@ function setup() {
     createCanvas(600,400);
     background("black");
     button1 = createButton(" Click on Me! ")
-    button1.position
+    button1.position(50, 50);
+    
 }
