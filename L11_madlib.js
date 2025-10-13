@@ -8,5 +8,6 @@ function setup() {
 }
 function draw() {
     fill("white");
-    n
+    noStroke();
+    
 }
