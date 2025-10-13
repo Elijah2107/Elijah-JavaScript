@@ -23,7 +23,7 @@ function draw() {
     rect(100,200,400,300,25);
     fill("red");
     // story = "MINECRAFT";
-    textSize(48);
+    textSize(18);
     textAlign(CENTER, CENTER);
     text(story, 300,300);
 }
