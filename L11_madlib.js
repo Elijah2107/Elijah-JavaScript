@@ -15,10 +15,7 @@ function setup() {
     sometextInput = createInput();
     sometextInput.position(50,120);
     sometextInput = createInput();
-    sometextInput.position(50,120);
-
-
-
+    sometextInput.position(50,180);
 }
 function changeText() {
     story = sometextInput.value();
