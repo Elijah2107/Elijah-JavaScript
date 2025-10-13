@@ -1,5 +1,6 @@
 let button1;
 function setup() {
     createCanvas(600,400);
-    backgroun
+    background("black");
+    button1 = cr
 }
