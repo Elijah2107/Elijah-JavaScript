@@ -8,7 +8,7 @@ function setup() {
     button1.position(50, 50);
     button1.size(100,80);
     button1.mousePressed( changeText );
-    textInput.position(width/2,height/2 - 50);
+    sometextInput
 
     //story = 0;
 }
