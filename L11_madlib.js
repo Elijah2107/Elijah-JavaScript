@@ -10,4 +10,5 @@ function draw() {
     fill("white");
     noStroke();
     rect(100,200,400,300,25);
+    fill
 }
