@@ -1,5 +1,6 @@
 let button1;
 let story;
+let textInput;
 function setup() {
     createCanvas(600,600);
     background("black");
