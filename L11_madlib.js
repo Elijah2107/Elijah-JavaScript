@@ -1,5 +1,5 @@
 let button1;
-let b
+let button2;
 let story;
 let sometextInput;
 function setup() {
