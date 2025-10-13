@@ -11,7 +11,7 @@ function setup() {
     button1.mousePressed( changeText );
    // story = 0;
     sometextInput = createInput();
-    sometextInput.position(50,5);
+    sometextInput.position(50,60);
 
 }
 function changeText() {
