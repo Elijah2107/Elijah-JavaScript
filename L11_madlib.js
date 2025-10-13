@@ -9,5 +9,5 @@ function setup() {
 function draw() {
     fill("white");
     noStroke();
-    
+    rect(100,200)
 }
