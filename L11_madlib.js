@@ -14,7 +14,7 @@ function setup() {
 
 }
 function changeText() {
-    story++;
+    story = 
 }
 function draw() {
     fill("white");
