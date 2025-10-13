@@ -1,6 +1,6 @@
 let button1;
 let story;
-let textInput;
+let sometextInput;
 function setup() {
     createCanvas(600,600);
     background("black");
@@ -9,7 +9,7 @@ function setup() {
     button1.size(100,80);
     button1.mousePressed( changeText );
     textInput.position(width/2,height/2 - 50);
-    
+
     //story = 0;
 }
 function changeText() {
