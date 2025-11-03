@@ -2,6 +2,7 @@ let hiddenwords = ["craft", "stone", "grass"];
 let guessButton;
 let guessInput;
 let message;
+let selected;
 function setup() {
     createCanvas(600,600);
     background("lightblue");
