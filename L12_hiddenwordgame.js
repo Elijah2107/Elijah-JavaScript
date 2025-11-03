@@ -20,7 +20,7 @@ function setup() {
     generateHints();
 }
 function generateHints() {
-    
+    hints = selected
 }
 function checkAnswer() {
     message = "You guessed it! The hidden word is 'beach'";
