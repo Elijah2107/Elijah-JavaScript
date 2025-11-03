@@ -11,5 +11,5 @@ function setup() {
 }
 function draw() {
     textAlign(CENTER,CENTER);
-    
+    textSize(30)
 }
