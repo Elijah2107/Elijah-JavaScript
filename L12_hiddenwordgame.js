@@ -1,5 +1,5 @@
 let hiddenwords = ["craft", "stone", "grass"];
-let guess
+let guessButton;
 let guessInput;
 function setup() {
     createCanvas(600,600);
