@@ -4,7 +4,7 @@ let guessInput;
 function setup() {
     createCanvas(600,600);
     background("lightblue");
-    guessButton = createButton("Guess");
+    guessButton = createButton("Subscribe");
     guessButton.size(150,30);
     guessButton.style("background-color", "red");
     guessButton.style("font-size", "20px");
