@@ -9,6 +9,7 @@ function setup() {
     guessButton.style("background-color", "red");
     guessButton.style("font-size", "20px");
     guessButton.position(400,250);
+    guessButton.mousePressed
     guessInput = createInput();
     guessInput.size(150,30);
     guessInput.style("font-size", "20px")
