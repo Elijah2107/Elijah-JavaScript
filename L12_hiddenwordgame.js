@@ -19,6 +19,9 @@ function setup() {
     selected = random(hiddenwords);
     generateHints();
 }
+function generateHints() {
+    
+}
 function checkAnswer() {
     message = "You guessed it! The hidden word is 'beach'";
 }
