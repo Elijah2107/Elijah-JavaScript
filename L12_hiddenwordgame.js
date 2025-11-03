@@ -13,5 +13,5 @@ function draw() {
     textAlign(CENTER,CENTER);
     textSize(30);
     text("Guess the hidden 5-letter word!", width/2, 80);
-    text
+    text("Attempts")
 }
