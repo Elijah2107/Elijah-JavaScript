@@ -8,7 +8,7 @@ function setup() {
     guessButton.position(400,250);
     guessInput = createInput();
     guessInput.size(150,30);
-    guessInput.style("font-size")
+    guessInput.style("font-size", "20px")
     guessInput.position(150,250);
 }
 function draw() {
