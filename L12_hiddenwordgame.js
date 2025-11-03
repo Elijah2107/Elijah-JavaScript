@@ -5,7 +5,7 @@ function setup() {
     createCanvas(600,600);
     background("lightblue");
     guessButton = createButton("Guess");
-    guessButton.position
+    guessButton.position(200,180);
     guessInput = createInput();
     guessInput.position(50,180);
 }
