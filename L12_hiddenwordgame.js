@@ -10,6 +10,7 @@ function setup() {
     guessInput.position(150,250);
 }
 function draw() {
+    background("lightblue")
     textAlign(CENTER,CENTER);
     textSize(30);
     text("Guess the hidden 5-letter word!", width/2, 80);
