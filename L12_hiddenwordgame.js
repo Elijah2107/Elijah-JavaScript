@@ -6,7 +6,7 @@ function setup() {
     background("lightblue");
     guessButton = createButton("Guess");
     guessButton.size(150,30);
-    g
+    guessButton
     guessButton.position(400,250);
     guessInput = createInput();
     guessInput.size(150,30);
