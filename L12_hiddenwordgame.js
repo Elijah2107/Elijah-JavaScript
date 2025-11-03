@@ -27,5 +27,6 @@ function draw() {
     text("Attempts: 0", width/2, 120);
     text("Hints: S _ _ _ _", width/2, 160);
     fill("red");
-    textSize()
+    textSize(24);
+    text(message)
 }
