@@ -11,5 +11,6 @@ function setup() {
 }
 function draw() {
     textAlign(CENTER,CENTER);
-    textSize(30)
+    textSize(30);
+    text("Guess the hidden 5-letter")
 }
