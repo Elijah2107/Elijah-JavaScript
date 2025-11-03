@@ -1,6 +1,8 @@
-let hiddenwords = ["beach", "cloud", "mango"];
+let hiddenwords = ["craft", "stone", "grass"];
 function setup() {
     createCanvas(600,600);
     background("lightblue");
 }
-fuc
+function draw() {
+    
+}
