@@ -25,5 +25,6 @@ function draw() {
     text("Guess the hidden 5-letter word!", width/2, 80);
     text("Attempts: 0", width/2, 120);
     text("Hints: S _ _ _ _", width/2, 160);
+    fill("red");
     
 }
