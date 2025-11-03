@@ -16,7 +16,7 @@ function setup() {
     guessInput.position(150,250);
 }
 function checkAnswer() {
-    message
+    message = "You guessed it!"
 }
 function draw() {
     background("lightblue");
