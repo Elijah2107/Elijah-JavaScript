@@ -3,6 +3,7 @@ let guessButton;
 let guessInput;
 let message;
 let selected;
+let hints;
 function setup() {
     createCanvas(600,600);
     background("lightblue");
