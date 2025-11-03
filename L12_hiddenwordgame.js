@@ -15,6 +15,9 @@ function setup() {
     guessInput.style("font-size", "20px")
     guessInput.position(150,250);
 }
+function checkAnswer() {
+    message
+}
 function draw() {
     background("lightblue");
     textAlign(CENTER,CENTER);
