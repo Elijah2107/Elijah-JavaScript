@@ -5,9 +5,9 @@ function setup() {
     createCanvas(600,600);
     background("lightblue");
     guessButton = createButton("Guess");
-    guessButton.position(400,180);
+    guessButton.position(400,250);
     guessInput = createInput();
-    guessInput.position(150,180);
+    guessInput.position(150,250);
 }
 function draw() {
     textAlign(CENTER,CENTER);
