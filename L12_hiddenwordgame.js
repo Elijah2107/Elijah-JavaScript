@@ -10,5 +10,6 @@ function setup() {
     guessInput.position(150,180);
 }
 function draw() {
-    textAlign(CENTER,CENTER)
+    textAlign(CENTER,CENTER);
+    
 }
