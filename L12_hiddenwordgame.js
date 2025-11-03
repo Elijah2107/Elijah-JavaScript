@@ -16,7 +16,7 @@ function setup() {
     guessInput.size(150,30);
     guessInput.style("font-size", "20px")
     guessInput.position(150,250);
-    selected = random
+    selected = random(hiddenwords);
 }
 function checkAnswer() {
     message = "You guessed it! The hidden word is 'beach'";
