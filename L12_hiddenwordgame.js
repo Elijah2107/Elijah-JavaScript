@@ -3,7 +3,7 @@ let guessInput;
 function setup() {
     createCanvas(600,600);
     background("lightblue");
-    guessI
+    guessInput = createIn
 }
 function draw() {
 
