@@ -16,7 +16,7 @@ function setup() {
     guessInput.position(150,250);
 }
 function checkAnswer() {
-    message = "You guessed it! The hidden word is 'beach'"
+    message = "You guessed it! The hidden word is 'beach'";
 }
 function draw() {
     background("lightblue");
@@ -25,4 +25,5 @@ function draw() {
     text("Guess the hidden 5-letter word!", width/2, 80);
     text("Attempts: 0", width/2, 120);
     text("Hints: S _ _ _ _", width/2, 160);
+    
 }
