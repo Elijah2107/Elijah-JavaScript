@@ -4,7 +4,7 @@ function setup() {
     createCanvas(600,600);
     background("lightblue");
     guessInput = createInput();
-    guessInput.position
+    guessInput.position(50,60);
 }
 function draw() {
 
