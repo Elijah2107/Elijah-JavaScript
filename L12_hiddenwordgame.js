@@ -7,7 +7,7 @@ function setup() {
     guessButton = createButton("Guess");
     guessButton.size(150,30);
     guessButton,style("background-color", "red");
-    guessButton.style("font-size")
+    guessButton.style("font-size", "20px");
     guessButton.position(400,250);
     guessInput = createInput();
     guessInput.size(150,30);
