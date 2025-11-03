@@ -22,7 +22,7 @@ function setup() {
     generateHints();
 }
 function generateHints() {
-    hints = selected
+    hints = selected[0] + 
 }
 function checkAnswer() {
     message = "You guessed it! The hidden word is 'beach'";
