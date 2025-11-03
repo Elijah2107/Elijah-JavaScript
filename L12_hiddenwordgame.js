@@ -10,5 +10,5 @@ function setup() {
     guessInput.position(150,180);
 }
 function draw() {
-
+    textA
 }
